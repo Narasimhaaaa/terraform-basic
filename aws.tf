@@ -6,3 +6,9 @@ terraform {
     required_version= "20.0"
   }
 }
+
+terraform {
+  required_providers {
+    required_providers = "20.0"
+  }
+}
