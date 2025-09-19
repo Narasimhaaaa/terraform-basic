@@ -94,5 +94,7 @@ resource "aws_instance" "instance_name" {
   vpc_security_group_ids = [aws_security_group.sg.id]
   subnet_id = aws_subnet.publicn_subnet.id
 
-  
+  tags = {
+    name ="Mywebserve"
+  }
 }
